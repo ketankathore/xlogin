@@ -20,7 +20,7 @@ function App() {
 
     // Check credentials
     if (username === 'user' && password === 'password') {
-      setMessage(`Welcome, ${username}!`);
+      setMessage(`Welcome, ${username}`);
       setIsValid(true);
       setShowMessage(true);
     } else {
