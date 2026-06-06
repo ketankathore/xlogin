@@ -66,7 +66,7 @@ function App() {
           />
         </div>
 
-        <button type="submit">
+        <button type="submit" disabled={!username || !password}>
           Submit
         </button>
       </form>
